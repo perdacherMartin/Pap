@@ -1,4 +1,8 @@
-Pap
-===
+Parallel Architecture and Programming Models
+============================================
 
-elaboration for lecture parallel architecture and programming models
+Elaboration for the lecture _parallel architecture and programming models_ at the University of Vienna. 
+
+Akka Actors
+-----------
+

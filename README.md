@@ -214,4 +214,4 @@ Suitable problems for Akka are payment processing, invoicing, order matching, da
 
 The fault tolerance model with the supervision concept is great, but there is always one module which controlls all the message flow and the computation for all other nodes in a distributed system. This single-point of failure is still a challenge in distributed computing. 
 
-Akka comes with two languages, Scala and Java. These two languages could be combined in one project. With the Appache-2.0 licence Akka could be used without license restriction. This elaboration was really fun, but there are a lot of features within Akka, which I want to discover in the future.
+Akka comes with two languages, Scala and Java. These two languages could be combined in one project. With the Appache-2.0 licence Akka could be used without license restriction. This elaboration was really fun and there are a lot of features within Akka, which I want to discover in the future.

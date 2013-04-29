@@ -157,7 +157,7 @@ The Sun Fire X4600 M2 server is a compact (4 rack units), energy-efficient syste
  * 32GB of main memory and two SAS (serial attached SCSI) harddisks. 
  * Operating System is Solaris 10 x86.
 
-This system is known in the Research Group of Scientific Computing with the nickname _daisy_.
+This system is known at the Research Group of Scientific Computing with the nickname _daisy_.
 
 ## Measurement
 
@@ -208,10 +208,10 @@ Boxing and unboxing happens implicitly when passing a primitive type as an argum
 
 # Conclusions
 
-Akka and its underlying actor model is very extensive and this work scratches only on the surface of the tweaking possibilities. Akka promises both, horizontal and vertical scalability, but you have to differentiate between data-intensive tasks and computation-intensive tasks. Akka is not suitable for data-intensive tasks like the matrix vector example, because the communication overhead is too big. 
+Akka and its underlying actor model is very extensive and this work scratches only on the surface of the tweaking possibilities. Akka promises both, horizontal and vertical scalability, but you have to differentiate between data-intensive tasks and computation-intensive tasks. Akka is not suitable for data-intensive tasks like the matrix vector example, because the communication overhead is too large. 
 
 Suitable problems for Akka are payment processing, invoicing, order matching, datacrunching, messaging. This also includes highly transactional systems like banking, betting or games. A really great framework for cloud-computing. 
 
 The fault tolerance model with the supervision concept is great, but there is always one module which controlls all the message flow and the computation for all other nodes in a distributed system. This single-point of failure is still a challenge in distributed computing. 
 
-Akka comes with two languages, Scala and Java. These two languages could be combined in one project. With the Appache-2.0 licence Akka could be used without license restriction. This elaboration was really fun, but there are a lot of features which could be discoverd within Akka. 
+Akka comes with two languages, Scala and Java. These two languages could be combined in one project. With the Appache-2.0 licence Akka could be used without license restriction. This elaboration was really fun, but there are a lot of features within Akka, which I want to discover in the future.
